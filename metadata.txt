@@ -1,0 +1,50 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=ICOMOS FINDER
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+description=search keywords
+version=0.1
+author=Mohamed W. Fareed
+email=mw.fareed@gmail.com
+
+about=The ICOMOS Charter Search & Notes plugin serves as a spatial research assistant for heritage professionals. Its primary purpose is to allow users to instantly search a massive local text repository—like a 90,000-word file of unaltered ICOMOS charters—for specific keywords without needing a complex database. Users can then physically anchor the relevant text extracts to specific geographic study sites on their QGIS map as interactive "sticky notes." This creates a seamless link between spatial data and the exact doctrinal guidelines governing those locations.
+
+tracker=http://localhost
+repository=http://localhost
+license=GNU GPL v2
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://localhost
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+# Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+

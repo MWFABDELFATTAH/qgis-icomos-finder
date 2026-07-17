@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ICOMOSNOTESDockWidgetBase</class>
+ <widget class="QDockWidget" name="ICOMOSNOTESDockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ICOMOS FINDER</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextBrowser" name="text_display"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="btn_search">
+      <property name="text">
+       <string>Search Charters</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="search_input"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="btn_reading_list">
+      <property name="text">
+       <string>Generate Reading List</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
