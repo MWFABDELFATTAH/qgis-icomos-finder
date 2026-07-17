@@ -22,11 +22,7 @@ This plugin was developed as a methodological tool to assist in deep case studie
 
 
 
-How it was developed?
-
-Here is the complete, beginner-friendly guide to building your **ICOMOS Finder** QGIS plugin from scratch. This compiles everything you have achieved, including the final, perfect code that cleanly extracts your charter titles and generates reading lists.
-
----
+---------------------------
 
 ### Prerequisites
 
